@@ -159,10 +159,6 @@
   width: 100px;
 }
 
-.w-200 {
-  width: 200px;
-}
-
 .w-400 {
   width: 400px;
 }
