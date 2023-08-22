@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.section {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#table-section, #logout-section, #invoice-section {
+  display: none;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #555;
+}
