@@ -7,13 +7,6 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
 .section {
   width: 80%;
   margin: 20px auto;
@@ -22,25 +15,6 @@ header {
   padding: 20px;
 }
 
-#table-section, #logout-section, #invoice-section {
-  display: none;
-}
-
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  text-align: left;
-}
-
-th {
-  background-color: #f4f4f4;
-}
 
 .item-actions {
   display: flex;
@@ -53,4 +27,11 @@ th {
   font-weight: bold;
   font-size: 1.2rem;
   color: #555;
+}
+
+
+@media screen and (max-width: 550px) {
+  section {
+    width: 90%;
+  }
 }
